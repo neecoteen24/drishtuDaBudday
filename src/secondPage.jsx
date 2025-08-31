@@ -61,7 +61,7 @@ function SecondPage({ onBack }) {
 
   const handleSpotifyClick = () => {
     // Replace this URL with your actual Spotify album link
-    window.open('https://open.spotify.com/album/your-album-id', '_blank')
+    window.open('https://open.spotify.com/playlist/37i9dQZF1EJLWq5WWfhraC?si=7c8cc87db9ef425a', '_blank')
   }
 
   return (
