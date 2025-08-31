@@ -10,31 +10,31 @@ function SecondPage({ onBack }) {
   const pictures = [
     {
       id: 1,
-      src: "/src/assets/images/IMG-20250901-WA0004.jpg",
+      src: "/images/IMG-20250901-WA0004.jpg",
       alt: "Beautiful Drishtu 1",
       title: "pagl"
     },
     {
       id: 2,
-      src: "/src/assets/images/IMG-20250901-WA0002.jpg",
+      src: "/images/IMG-20250901-WA0002.jpg",
       alt: "Beautiful Drishtu 2",
       title: "peelu"
     },
     {
       id: 3,
-      src: "/src/assets/images/IMG-20250901-WA0003.jpg",
+      src: "/images/IMG-20250901-WA0003.jpg",
       alt: "Beautiful Drishtu 3",
       title: "lovelyDebu"
     },
     {
       id: 4,
-      src: "src/assets/images/WhatsApp Image 2025-09-01 at 01.40.19_51557d8b.jpg",
+      src: "/images/WhatsApp Image 2025-09-01 at 01.40.19_51557d8b.jpg",
       alt: "Beautiful Drishtu 4",
       title: "kaalu and peelu"
     },
     {
       id: 5,
-      src: "/src/assets/images/IMG-20250901-WA0001.jpg",
+      src: "/images/IMG-20250901-WA0001.jpg",
       alt: "Beautiful Drishtu 5",
       title: "aur naam ni hai mere paas"
     }
@@ -67,12 +67,12 @@ function SecondPage({ onBack }) {
   return (
     <div className="second-page">
       {/* Hidden audio element */}
-      <audio 
-        ref={audioRef}
-        src="/src/assets/music/bytesites.co.za - Malcolm Todd - Chest Pain (I Love) (320 KBps).mp3"
-        loop
-        onError={(e) => console.log('Audio error:', e)}
-      />
+              <audio
+          ref={audioRef}
+          src="/music/bytesites.co.za - Malcolm Todd - Chest Pain (I Love) (320 KBps).mp3"
+          loop
+          onError={(e) => console.log('Audio error:', e)}
+        />
       
       {/* Music Control Button */}
       <motion.div 
